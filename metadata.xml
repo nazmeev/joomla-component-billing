@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <menu>
+        <options var="view">
+            <option name='clients' value="clients" msg="" />
+            <option name='personnels' value="personnels" msg="" />
+            <option name='issues' value="issues" msg="" />
+            <option name='documents' value="documents" msg="" />
+            <option name='doctypes' value="doctypes" msg="" />
+            <option name='process' value="process" msg="" />
+            <option name='protocol' value="protocol" msg="" />
+        </options>
+    </menu>
+    <state switch="view">
+        <presentation>
+            <url>
+                <param name="view" type="list" default="" label="Show" description="Page to show">
+                    <option value="">Main page of shop</option>
+                    <option value="client">client</option>
+                    <option value="personnel">personnel</option>
+                    <option value="issue">issue</option>
+                    <option value="document">document</option>
+                    <option value="doctype">doctype</option>
+                    <option value="process">process</option>
+                    <option value="protocol">protocol</option>
+                </param>
+            </url>
+        </presentation>
+    </state>
+</metadata>
